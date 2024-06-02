@@ -1,0 +1,84 @@
+.summary {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+  
+.summary h2 {
+text-align: center;
+color: #333;
+}
+  
+.summary__head {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.summary__photo {
+width: 150px;
+height: auto;
+border-radius: 10px;
+}
+
+.summary__head-property,
+.summary__head-room {
+flex: 1;
+margin-left: 20px;
+}
+
+.summary__head-property h3,
+.summary__head-room h3 {
+margin: 0;
+color: #333;
+}
+
+.summary__address,
+.summary__city,
+.summary__rating,
+.summary__room-type,
+.summary__room-price {
+color: #666;
+margin: 5px 0;
+}
+
+.summary__detail,
+.summary__services,
+.summary__cancel {
+margin-top: 20px;
+}
+
+.summary__detail h3,
+.summary__services h3,
+.summary__cancel h3 {
+border-bottom: 1px solid #ccc;
+padding-bottom: 5px;
+color: #333;
+}
+
+.summary__number,
+.summary__dates,
+.summary__guests,
+.summary__services,
+.summary__room-total,
+.summary__check-in,
+.summary__check-out {
+color: #666;
+margin: 5px 0;
+}
+
+.summary__service {
+flex: 1 1 50%;
+color: #666;
+margin: 5px 0;
+}
+
+.summary__cancel-text p {
+color: #666;
+margin: 5px 0;
+}
